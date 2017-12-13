@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./out-tsc-e2e",
+    "sourceMap": true,
+    "target": "es5",
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "types": [
+      "karma",
+      "mocha",
+      "chai",
+      "node"
+    ],
+    "lib": [
+      "es2015",
+      "es6",
+      "es7"
+    ],
+    "baseUrl": "./"
+  }
+}
